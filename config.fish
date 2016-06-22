@@ -1,6 +1,6 @@
-source ~/.config/fish/fish_prompt
-source ~/.config/fish/fish_colors
-source ~/.config/fish/fish_git_prompt
+source ~/.config/fish/fish_prompt.fish
+source ~/.config/fish/fish_colors.fish
+source ~/.config/fish/fish_git_prompt.fish
 
 # chruby
 source /usr/local/share/chruby/chruby.fish
@@ -8,7 +8,7 @@ source /usr/local/share/chruby/chruby.fish
 chruby 2.3.0
 
 # Custom
-source ~/.config/fish/credentials
+source ~/.config/fish/credentials.fish
 source ~/.config/fish/ll.fish
 
 fish_vi_mode
